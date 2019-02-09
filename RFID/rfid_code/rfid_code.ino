@@ -24,7 +24,6 @@ void loop() {
     if (mfrc522.PICC_ReadCardSerial()) {
       // Mostra UID na serial
       String id= "";
-      String s = "";
       for (byte i = 0; i < mfrc522.uid.size; i++) {
          id += String(mfrc522.uid.uidByte[i], HEX);
       }
