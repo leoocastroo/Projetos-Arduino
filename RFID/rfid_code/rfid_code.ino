@@ -12,8 +12,8 @@ void setup() {
   SPI.begin();          // Inicia comunicação SPI bus
   mfrc522.PCD_Init();   // Inicia MFRC522
   
-  Serial.println("Aproxime o seu cartao do leitor");
-  Serial.println();
+  //Serial.println("Aproxime o seu cartao do leitor");
+  //Serial.println();
 } //end setup
 
 
